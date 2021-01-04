@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #222831;
+}
+
+/* NAVBAR  CSS */
+
+.navbar-brand {
+    padding: 20px 0 20px 0;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: white;
+    margin-top: 0;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar {
+    width: 80%;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    background-color: #222831;
+    margin-top: 0;
+}
+
+.nav-item a {
+    margin-left: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
+.nav-item a:hover {
+    animation-name: nav-hover;
+    animation-duration: 0ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nav-hover {
+    100% {
+        background-color: #f05454;
+    }
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler {
+    border-color: white;
+}
+
+.navbar-nav {
+    margin-top: 0;
+}
+
+/* MAIN CONTENT */
+
+/* CAROUSEL */
+main {
+    background-color: #222831;
+}
+
+.carousel-custom {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.carousel-item img {
+    height: 600px;
+}
+
+.carousel-control-prev {
+    margin-left: -150px;
+}
+
+.carousel-control-next {
+    margin-right: -150px;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    margin-top: 20px;
+}
