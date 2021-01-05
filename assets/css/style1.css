@@ -6,6 +6,7 @@
 body {
     overflow-x: hidden;
     background-color: #222831;
+    margin-right: -50px;
 }
 
 header {
@@ -205,4 +206,8 @@ main {
     height: 100px;
     background-color: #222831;
     color: snow;
+}
+
+body {
+    overflow-y: visible;
 }
