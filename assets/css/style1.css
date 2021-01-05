@@ -2,12 +2,20 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     overflow-x: hidden;
 }
 
 header {
     background-color: #222831;
+}
+
+/* HR */
+hr {
+    border-top: 5px dotted rgb(255, 255, 255);
+    width: 20%;
+    margin: 50px auto 50px auto;
 }
 
 /* SCROLLBAR */
@@ -128,6 +136,7 @@ main {
     margin-top: 20px;
 }
 
+
 /* ACTIVITY */
 .activity {
     margin-top: 50px;
@@ -144,16 +153,22 @@ main {
 
 .notice {
     height: 500px;
-    background-color: #222831;
     color: snow;
     width: 80%;
     margin: auto;
     overflow-y: scroll;
-    border: 3px solid snow;
+    border: 3px snow;
     border-radius: 2%;
+    border-style: hidden;
+}
+
+.item h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .item {
+    padding: 20px 15px 20px 15px;
     text-align: center;
     width: 80%;
     margin: 20px auto 20px auto;
