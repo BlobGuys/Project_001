@@ -5,6 +5,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: #222831;
 }
 
 header {
@@ -186,4 +187,22 @@ main {
     width: 10%;
     background-color: snow;
     margin: 40px auto 40px auto;
+}
+
+/* HIGHLIGHTS */
+.highlights {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#blog {
+    height: 300px;
+}
+
+.card-body {
+    height: 100px;
+    background-color: #222831;
+    color: snow;
 }
