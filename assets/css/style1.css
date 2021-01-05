@@ -195,7 +195,7 @@ main {
     width: 80%;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 #blog {
@@ -208,6 +208,20 @@ main {
     color: snow;
 }
 
-body {
-    overflow-y: visible;
+/* FOOTER */
+
+.footer {
+    padding: 50px 0 50px 0;
+    margin: auto;
+    background-color: #f05454;
+    color: snow;
+}
+
+#details a {
+    color: snow;
+}
+
+.links a {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
