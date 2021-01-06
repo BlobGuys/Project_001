@@ -224,3 +224,9 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.follow-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+}
