@@ -6,7 +6,6 @@
 body {
     overflow-x: hidden;
     background-color: #222831;
-    margin-right: -50px;
 }
 
 header {
@@ -123,13 +122,13 @@ main {
     height: 600px;
 }
 
-.carousel-control-prev {
+/*.carousel-control-prev {
     margin-left: -150px;
 }
 
 .carousel-control-next {
     margin-right: -150px;
-}
+}*/
 
 .carousel-caption {
     position: relative;
